@@ -48,4 +48,4 @@ stack.pop()
 stack.pop()
 assert stack.peek() == 7
 
-# Expected output: print 'Queue Overflow' once. And no errors arise.
+# Expected output: print 'StackOverflow' once. And no errors arise.
