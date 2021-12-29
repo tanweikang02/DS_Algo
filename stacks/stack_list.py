@@ -37,6 +37,8 @@ class Stack:
         return False
 
 
+# Test cases
+
 stack = Stack()
 stack.is_empty()
 for i in range(11):
@@ -45,3 +47,5 @@ assert stack.peek() == 9
 stack.pop()
 stack.pop()
 assert stack.peek() == 7
+
+# Expected output: print 'Queue Overflow' once. And no errors arise.
