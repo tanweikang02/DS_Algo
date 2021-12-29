@@ -97,3 +97,5 @@ assert stack.peek() == 9
 stack.pop()
 stack.pop()
 assert stack.peek() == 7
+
+# Expected output: print 'StackOverflow' once. And no errors arise.
